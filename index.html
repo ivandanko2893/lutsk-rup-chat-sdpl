@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Електронний сервіс супроводу родин осіб, зниклих безвісти за особливих обставин.">
+
+    <title>
+        Сервіс супроводу родин осіб, зниклих безвісти за особливих обставин
+    </title>
+
+    <link rel="stylesheet"
+          href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<header class="hero">
+
+    <div class="container">
+
+        <div class="hero-card">
+
+            <img
+                src="assets/logos/police-logo.png"
+                alt="Поліція Луцька та району"
+                class="hero-logo">
+
+            <h1>
+
+                СЕРВІС СУПРОВОДУ РОДИН
+
+            </h1>
+
+            <h2>
+
+                осіб, зниклих безвісти<br>
+                за особливих обставин
+
+            </h2>
+
+            <div class="hero-line"></div>
+
+            <p class="hero-text">
+
+                Спільний електронний сервіс сектору дотримання прав людини
+                та слідчого відділу Луцького районного управління поліції,
+                створений для швидкого обміну інформацією з родинами осіб,
+                зниклих безвісти за особливих обставин.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+
+<section class="advantages">
+
+    <div class="container">
+
+        <div class="info-card">
+
+            <div class="info-item">
+
+                <div class="info-icon">
+
+                    💬
+
+                </div>
+
+                <h3>
+
+                    Оперативний<br>зв'язок
+
+                </h3>
+
+                <p>
+
+                    Надішліть інформацію слідчому
+                    у декілька кліків.
+
+                </p>
+
+            </div>
+
+            <div class="info-item">
+
+                <div class="info-icon">
+
+                    📝
+
+                </div>
+
+                <h3>
+
+                    Нові<br>відомості
+
+                </h3>
+
+                <p>
+
+                    Повідомляйте будь-які нові
+                    обставини або зміни.
+
+                </p>
+
+            </div>
+
+            <div class="info-item">
+
+                <div class="info-icon">
+
+                    🤝
+
+                </div>
+
+                <h3>
+
+                    Супровід<br>родини
+
+                </h3>
+
+                <p>
+
+                    Постійна взаємодія із
+                    працівниками поліції.
+
+                </p>
+
+            </div>
+
+            <div class="info-item">
+
+                <div class="info-icon">
+
+                    ⚡
+
+                </div>
+
+                <h3>
+
+                    Автоматичне<br>формування
+
+                </h3>
+
+                <p>
+
+                    Повідомлення створюється
+                    автоматично.
+
+                </p>
+
+            </div>
+
+            <div class="info-item security">
+
+                <div class="info-icon">
+
+                    🔒
+
+                </div>
+
+                <h3>
+
+                    Конфіденційність
+
+                </h3>
+
+                <p>
+
+                    Уся інформація використовується
+                    виключно в межах кримінального
+                    провадження.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="workspace">
+
+<div class="container">
+
+<div class="workspace-grid">
+
+<div class="form-card">
+
+<h2>
+
+1. Заповніть форму
+
+</h2>
+
+<form id="missingForm">
+    
+<div class="field">
+
+    <label for="fullName">
+
+        Ваше ім'я та прізвище
+
+    </label>
+
+    <input
+        type="text"
+        id="fullName"
+        placeholder="Введіть ПІБ">
+
+</div>
+
+<div class="field">
+
+    <label for="phone">
+
+        Контактний номер телефону
+
+    </label>
+
+    <input
+        type="tel"
+        id="phone"
+        placeholder="+380 (__) ___-__-__">
+
+</div>
+
+<div class="field">
+
+    <label for="relation">
+
+        Ким Ви приходитесь зниклій особі
+
+    </label>
+
+    <select id="relation">
+
+        <option value="">
+
+            Оберіть варіант
+
+        </option>
+
+        <option>Мати</option>
+        <option>Батько</option>
+        <option>Дружина</option>
+        <option>Чоловік</option>
+        <option>Син</option>
+        <option>Донька</option>
+        <option>Брат</option>
+        <option>Сестра</option>
+        <option>Опікун</option>
+        <option>Інший родич</option>
+        <option>Інше</option>
+
+    </select>
+
+</div>
+
+<div class="field">
+
+    <label for="missingName">
+
+        ПІБ особи, зниклої безвісти
+
+    </label>
+
+    <input
+        type="text"
+        id="missingName"
+        placeholder="Введіть ПІБ зниклої особи">
+
+</div>
+
+<div class="double">
+
+    <div class="field">
+
+        <label for="missingDate">
+
+            Дата зникнення
+
+        </label>
+
+        <input
+            type="date"
+            id="missingDate">
+
+    </div>
+
+    <div class="field">
+
+        <label for="region">
+
+            Місце зникнення
+
+        </label>
+
+        <input
+            type="text"
+            id="region"
+            placeholder="Населений пункт">
+
+    </div>
+
+</div>
+
+<div class="field">
+
+    <label for="information">
+
+        Повідомте інформацію, яка може допомогти у пошуку
+
+    </label>
+
+    <textarea
+        id="information"
+        rows="8"
+        placeholder="Опишіть відомі Вам обставини, можливі місця перебування, транспортні засоби, контакти, свідків або будь-яку іншу інформацію, яка може бути корисною для пошуку..."></textarea>
+
+</div>
+
+<h3 class="upload-title">
+
+    2. Додайте матеріали
+
+    <span>
+
+        (за наявності)
+
+    </span>
+
+</h3>
+
+<div class="upload-grid">
+
+    <label class="upload-box">
+
+        <input
+            type="file"
+            id="photoUpload"
+            accept="image/*"
+            hidden>
+
+        <div>
+
+            📷
+
+        </div>
+
+        <strong>
+
+            Фото
+
+        </strong>
+
+        <small>
+
+            JPG • PNG • WEBP
+
+        </small>
+
+    </label>
+
+    <label class="upload-box">
+
+        <input
+            type="file"
+            id="documentUpload"
+            accept=".pdf,.doc,.docx"
+            hidden>
+
+        <div>
+
+            📄
+
+        </div>
+
+        <strong>
+
+            Документ
+
+        </strong>
+
+        <small>
+
+            PDF • DOC • DOCX
+
+        </small>
+
+    </label>
+
+    <label class="upload-box">
+
+        <input
+            type="file"
+            id="videoUpload"
+            accept="video/*"
+            hidden>
+
+        <div>
+
+            🎥
+
+        </div>
+
+        <strong>
+
+            Відео
+
+        </strong>
+
+        <small>
+
+            MP4 • MOV
+
+        </small>
+
+    </label>
+
+</div>
+
+<div class="buttons">
+
+    <button
+        type="button"
+        id="generateButton"
+        class="primary-button">
+
+        СФОРМУВАТИ ПОВІДОМЛЕННЯ
+
+    </button>
+
+</div>
+
+<p class="copy-info">
+
+    Після формування повідомлення його можна буде
+    скопіювати або одразу надіслати через один із месенджерів.
+
+</p>
+
+</form>
+
+</div>
+<div class="result-card">
+
+    <h2>
+
+        3. Сформоване повідомлення
+
+    </h2>
+
+    <div class="copy-button-wrapper">
+
+        <button
+            type="button"
+            id="copyButton"
+            class="copy-button">
+
+            Копіювати текст
+
+        </button>
+
+    </div>
+
+    <textarea
+        id="resultMessage"
+        rows="18"
+        readonly
+        placeholder="Після натискання кнопки «СФОРМУВАТИ ПОВІДОМЛЕННЯ» тут автоматично з'явиться готовий текст для відправлення..."></textarea>
+
+    <div class="messenger-buttons">
+
+        <button
+            type="button"
+            id="whatsappButton"
+            class="whatsapp">
+
+            ВІДПРАВИТИ ЧЕРЕЗ WHATSAPP
+
+        </button>
+
+        <button
+            type="button"
+            id="viberButton"
+            class="viber">
+
+            ВІДПРАВИТИ ЧЕРЕЗ VIBER
+
+        </button>
+
+        <button
+            type="button"
+            id="telegramButton"
+            class="telegram">
+
+            ВІДПРАВИТИ ЧЕРЕЗ TELEGRAM
+
+        </button>
+
+    </div>
+
+    <div class="result-note">
+
+        <div class="note-icon">
+
+            ℹ️
+
+        </div>
+
+        <p>
+
+            Після натискання кнопки відкриється
+            відповідний месенджер із уже підготовленим
+            повідомленням. Перед відправленням перевірте
+            правильність усіх внесених даних.
+
+        </p>
+
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="important">
+
+    <div class="container">
+
+        <h2>
+
+            Важлива інформація
+
+        </h2>
+
+        <div class="important-grid">
+
+            <div class="important-item">
+
+                <div class="important-icon">
+
+                    ✔
+
+                </div>
+
+                <p>
+
+                    Перевіряйте правильність контактного номера телефону та даних про особу, яка зникла безвісти.
+
+                </p>
+
+            </div>
+
+            <div class="important-item">
+
+                <div class="important-icon">
+
+                    📄
+
+                </div>
+
+                <p>
+
+                    Якщо у Вас є фотографії, документи або інші матеріали, які можуть допомогти слідству, обов'язково повідомте про це працівника поліції.
+
+                </p>
+
+            </div>
+
+            <div class="important-item">
+
+                <div class="important-icon">
+
+                    ⏱
+
+                </div>
+
+                <p>
+
+                    Після отримання нової інформації не відкладайте повідомлення — навіть незначні відомості можуть бути важливими.
+
+                </p>
+
+            </div>
+
+            <div class="important-item">
+
+                <div class="important-icon">
+
+                    🛡
+
+                </div>
+
+                <p>
+
+                    Уся інформація використовується виключно для виконання завдань кримінального провадження та встановлення місцезнаходження особи.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<footer>
+
+    <div class="container">
+
+        <div class="footer-content">
+
+            <img
+                src="assets/logos/police-logo.png"
+                alt="Поліція Луцька та району"
+                class="footer-logo">
+
+            <div class="footer-text">
+
+                <h3>
+
+                    Поліція Луцька та району
+
+                </h3>
+
+                <p>
+
+                    Луцьке районне управління поліції
+                    ГУНП у Волинській області
+
+                </p>
+
+                <p>
+
+                    Сектор дотримання прав людини
+
+                </p>
+
+                <p>
+
+                    Слідчий відділ
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            © 2026 Луцьке районне управління поліції ГУНП у Волинській області.
+            Електронний сервіс супроводу родин осіб,
+            зниклих безвісти за особливих обставин.
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
