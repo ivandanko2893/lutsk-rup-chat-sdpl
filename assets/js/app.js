@@ -325,10 +325,9 @@ function openMessenger(service) {
 
             break;
 
-        case "telegram":
-
-            url =
-                `https://t.me/share/url?url=&text=${text}`;
+case "telegram":
+    url = `https://t.me/slidchuy_viddil`;
+    break; 
 
             break;
 
@@ -338,13 +337,7 @@ function openMessenger(service) {
 
     }
 
-    window.open(
-
-        url,
-
-        "_blank"
-
-    );
+    window.location.href = url;
 
 }
 
